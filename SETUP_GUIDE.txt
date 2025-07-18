@@ -1,0 +1,29 @@
+STEP 1: Install Python and Required Libraries
+---------------------------------------------
+1. Install Python 3.10+ from https://python.org
+2. Open terminal or cmd and run:
+   pip install dhan requests
+
+STEP 2: Configure Bot
+---------------------
+1. Open config.json
+2. Replace YOUR_DHAN_API_KEY and YOUR_DHAN_ACCESS_TOKEN
+3. Update email settings if you want email alerts
+
+STEP 3: Run Bot
+---------------
+1. Open terminal in folder containing BankNiftyAutoBot.py
+2. Run:
+   python BankNiftyAutoBot.py
+
+Modes:
+------
+- paper_mode: true = only simulate trades
+- paper_mode: false = place live orders
+
+STEP 4: Upload to GitHub
+------------------------
+1. Go to https://github.com/krishnamv77/AImode
+2. Click Add file → Upload files
+3. Drag & drop BankNiftyAutoBot.py, config.json, SETUP_GUIDE.txt
+4. Commit changes
