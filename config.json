@@ -1,0 +1,16 @@
+{
+  "api_key": "YOUR_DHAN_API_KEY",
+  "access_token": "YOUR_DHAN_ACCESS_TOKEN",
+  "symbol": "BANKNIFTY",
+  "lots": 1,
+  "stop_loss": 50,
+  "target": 100,
+  "paper_mode": true,
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "email": "your-email@gmail.com",
+    "password": "your-email-password",
+    "to_email": "your-email@gmail.com"
+  }
+}
